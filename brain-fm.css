@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /* Font was TTNormsPro-regular,medium, or bold - downloaded pack*/
+
+.section-1 {
+    background-color: rgb(72, 10, 253);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 100px;
+    font-size: 11px;
+  }
+
+.section-2 {
+    background-color: rgb(72, 10, 253);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 0px;
+    padding-top: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: smaller;
+    justify-content: center;
+}
+
+.section-2 :first-child {
+    width: 375px;
+}
+
+.section-3 {
+    background-color: rgb(72, 10, 253);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.section-4 {
+    background-color: rgb(72, 10, 253);
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: center;
+}
+
+.flexcontainer-1 {
+  flex: 1 1 800;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.flexcontainer-2 {
+  flex: 1 1 800;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.flexcontainer-3 {
+  flex: 1 1 100;
+  justify-content: center;
+}
+
+.flexcontainer-4 {
+  flex: 1 1 100;
+  justify-content: center;
+}
+
+.button-1 {
+    padding: 5px 17px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 23px;
+    background-image: linear-gradient(to right, rgb(230, 170, 16) , #da831f );
+    color: white;
+  }
+
+  button {
+    padding: 5px 34px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 23px;
+    background-image: linear-gradient(to right, rgb(230, 170, 16) , #da831f );
+    color: white;
+  }
+
+  span {
+    vertical-align: sub;
+  }
+
+  .aligncenter {
+    text-align: center;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+  }
+
+a:hover {
+    background-color: #999999;
+  }
